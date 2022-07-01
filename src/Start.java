@@ -18,7 +18,7 @@ public class Start {
                  .concat("Upon")
                  .concat("aTime");
 
-        System.out.println("Lancuch po zmianie i dodaniu znaków: " + one);
+        System.out.println("Lancuch po zmianie i dodaniu znakow: " + one);
 
 
         //contains
@@ -46,6 +46,19 @@ public class Start {
 
         //indexOf
         System.out.println(one.indexOf('a'));
+
+        //concat
+        String concatTest;
+        concatTest = one.concat(two);
+        System.out.println(concatTest);
+
+
+        //StringBuilder
+
+        StringBuilder sb = new StringBuilder("Hello beautiful world!");
+        sb.insert(sb.length(),"Foo");
+        System.out.println(sb);
+
 
 
 
