@@ -3,6 +3,7 @@
 public class Start {
     public static void main(String[] args) {
 
+        //przepraszam za bałagan, kod ten ma przeznaczenei eksperymentalne
         String one = "One";
         String two = "Two";
         String three = new String("Two");
@@ -59,8 +60,18 @@ public class Start {
         sb.insert(sb.length(),"Foo");
         System.out.println(sb);
 
+        sb.replace(2,5,"WSTAWKA HEJ!");
+        System.out.println(sb);
 
 
+        //equals
+
+        String a1 = "Hello World";
+        String a2 = "Hemlo World";
+        String a3 = "Hello World";
+
+        System.out.println(a1.equals(a2));
+        System.out.println(a1.equals(a3));
 
 
 
