@@ -24,7 +24,7 @@ public class Start {
         boolean a = three.contains("o");
         System.out.println(a);
 
-        
+
 
 
     }
